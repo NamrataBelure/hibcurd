@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name="com/scp/java/Hibernate/hibcurd/Employee" table ="Employee">
+<id name="id" type ="int" column = "id">
+<property name = "empId" column = "empId" type="int"/>
+<property name = "empSalary" column = "empSalary" type="int"/>
+<property name = "address" column = "address" type="string"/>
+<property name = "empAge" column = "empAge" type="int"/>
+
+</class>
+</hibernate-mapping>
